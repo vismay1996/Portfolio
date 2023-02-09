@@ -3,14 +3,21 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 import profileImg from '../../images/vismay.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
+AOS.init();
+AOS.init({
+  duration: 1200,
+});
 
 const About = () => {
   const { name, role, description, resume, social } = about
 
   return (
-    <div className='about center'>
+    <div className='about center' data-aos="fade-up">
       <div> 
-      <img src={profileImg} alt="Avatar" style={{width:"200px", borderRadius:"50%"}}/>
+      <img src={profileImg} alt="Avatar" style={{width:"150px", borderRadius:"50%"}}/>
       </div>
       {name && (
         <h1>

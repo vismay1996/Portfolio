@@ -10,7 +10,7 @@ const about = {
   role: 'Software Developer',
   description:
     "I'm a Full stack web developer based in Bengaluru, India specializing in building (and occasionally designing) exceptional websites, applications and everything in between.",
-  resume: 'https://example.com',
+  resume: '/resumUp.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/vismaysraj/',
     github: 'https://github.com',
@@ -21,28 +21,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Student Management Desk',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Student Details Management Application ',
+    stack: ['SASS', 'TypeScript', 'Angular'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'ToDo App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'An app that generally used to maintain our day-to-day tasks or list everything that we have to do',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'ScamYodha',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Phone Call Scams and Risk Management',
+    stack: ['SASS', 'Node', 'React'],
+    // sourceCode: 'https://github.com',
+    livePreview: 'https://www.scamyodha.com/',
   },
 ]
 

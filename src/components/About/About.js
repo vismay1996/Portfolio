@@ -30,7 +30,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} download={resume} target="_blank">
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
